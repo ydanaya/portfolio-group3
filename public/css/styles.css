@@ -12778,6 +12778,26 @@ section.resume-section {
   max-width: 75rem;
 }
 
+.tabla {
+  display: flex;
+  flex-direction: column;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.celda {
+  border: 1px;
+  padding: 10px;
+}
+
+h4 {
+  font-weight: normal;
+  /* Quita el efecto de negrita */
+}
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
