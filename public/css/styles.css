@@ -12778,17 +12778,17 @@ section.resume-section {
   max-width: 75rem;
 }
 
-.tabla {
+.tavla {
   display: flex;
   flex-direction: column;
 }
 
-.fila {
+.hori {
   display: flex;
   flex-direction: row;
 }
 
-.celda {
+.ceda {
   border: 1px;
   padding: 10px;
 }
