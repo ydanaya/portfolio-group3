@@ -97,7 +97,7 @@
   display: flex;
 }
 
-.tarjeta {
+.tarjeeta {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,8 +110,8 @@
   perspective: 1000px;
 }
 
-.cara,
-.reverso {
+.carsasa,
+.reversesdfso {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -119,7 +119,7 @@
   transition: transform 0.5s;
 }
 
-.cara {
+.carsasa {
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -127,14 +127,14 @@
   font-size: 24px;
 }
 
-.tarjetero h4 {
+.tarjetetetero h4 {
   padding-left: 102px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.reverso {
+.reversesdfso {
   background-color: #fabd6e;
   transform: rotateY(180deg);
   display: flex;
@@ -144,17 +144,17 @@
   color: #faf4f4;
 }
 
-.reverso h5 {
+.reversesdfso h5 {
   padding-left: 8px;
   padding-right: 8px;
   color: #000;
 }
 
-.tarjeta:hover .cara {
+.tarjeeta:hover .carsasa {
   transform: rotateY(180deg);
 }
 
-.tarjeta:hover .reverso {
+.tarjeeta:hover .reversesdfso {
   transform: rotateY(0deg);
 }
 
