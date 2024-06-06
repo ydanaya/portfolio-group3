@@ -4430,6 +4430,77 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+#proyectos {
+  background: #fff;
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#proyectos h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.proyecto {
+  margin-bottom: 20px;
+}
+
+.proyecto h3 {
+  color: #bd5d38;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.proyecto p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.proyecto p em {
+  color: #555;
+  font-style: italic;
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e0521a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.proyecto a:hover {
+  background-color: #ff9100;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  #proyectos {
+    padding: 20px 10px;
+  }
+
+  .proyecto a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .proyecto a:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
   color: var(--bs-navbar-active-color);
@@ -8432,6 +8503,14 @@ fieldset:disabled .btn {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+}
+
+
+.flex-grow-112 {
+  flex-grow: 1 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-shrink-0 {
@@ -12872,7 +12951,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 0.5vh;
   }
 }
 
