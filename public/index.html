@@ -36,23 +36,50 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Conózcanos</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana1">Semana 1</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana2">Semana 2</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana3">Semana 3</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana4">Semana 4</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana5">Semana 5</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana6">Semana 6</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana7">Semana 7</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana8">Semana 8</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana9">Semana 9</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana10">Semana 10</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana11">Semana 11</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana12">Semana 12</a></li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#semana1" onclick="toggleSubMenu('analisis')">Análisis</a>
+                    <div id="analisis" class="submenu-container d-none">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana1">Semana 1</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana2">Semana 2</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana3">Semana 3</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana4">Semana 4</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana5">Semana 5</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana6">Semana 6</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana7">Semana 7</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana8">Semana 8</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana9">Semana 9</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana10">Semana 10</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana11">Semana 11</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana12">Semana 12</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#semana01" onclick="toggleSubMenu('ingenieria')">Ingeniería</a>
+                    <div id="ingenieria" class="submenu-container d-none">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana01">Semana 1</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana02">Semana 2</a></li>
+                            <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana03">Semana 3</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana04">Semana 4</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana05">Semana 5</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana06">Semana 6</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana07">Semana 7</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana08">Semana 8</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana09">Semana 9</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana010">Semana 10</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana011">Semana 11</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#semana012">Semana 12</a></li>-->
+                        </ul>
+                    </div>
+                </li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
             </ul>
         </div>
-
     </nav>
+    
+        
     <!-- Page Content-->
     <div class="container-fluid p-0">
         <!-- About-->
@@ -682,6 +709,147 @@
                 </div>
             </div>
         </section>
+        <hr class="m-0" />
+        <!-- Semana1-->
+        <section class="resume-section" id="semana01">
+            <div class="resume-section-content">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h2 class="mb-5">Ética Profesional</h2>
+                        <div class="subheading mb-3">Se realizó un análisis a la ética de un ingeniero, con enfoque en los ingenieros de sistemas</div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Agosto 14 - Agosto 17</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">caso de estudio</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/CasoDeEstudio.pdf"
+                                        type="application/pdf" width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/CasoDeEstudio.pdf"
+                                        target="_blank">Ver PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h4>Se presenta el caso de un jefe que envía a su empleado a realizar un acto éticamente incorrecto</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Yeiner Daniel Anaya Duarte</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Autocrítica Maria</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/AUTOCRITICA 1152073.pdf"
+                                        type="application/pdf" width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/AUTOCRITICA 1152073.pdf"
+                                        target="_blank">Ver PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h5>"Realizando este ejercicio, siento que la educación de nuestra universidad nos ha inculcado los principios éticos de tal manera que se han convertido en algo normal y cotidiano para nosotros. Cumplimos con el código de ética sin mayor esfuerzo, lo que refleja la sólida formación que estamos recibiendo."</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Ana Maria Moreno Casadiego</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Autocrítica Moises</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/AUTOCRITICA 1152082.pdf"
+                                        type="application/pdf" width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/AUTOCRITICA 1152082.pdf"
+                                        target="_blank">Ver PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h5>"Al reflexionar sobre el código de ética, me doy cuenta de que aunque hablamos sobre la responsabilidad social, debemos ser más conscientes del impacto a largo plazo de nuestras decisiones, especialmente en términos de privacidad y seguridad. Necesitamos ver el código como una guía activa para nuestras decisiones."</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Moises Omar Osorio Labrador</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Autocrítica Yeiner</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/Autocritica Etica 1152086.pdf"
+                                        type="application/pdf" width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/Autocritica Etica 1152086.pdf"
+                                        target="_blank">Ver PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h5>"Este autoexamen me hizo ver que a veces asumimos que todos interpretan el código de ética de la misma manera. Deberíamos fomentar más discusiones sobre dilemas éticos específicos para asegurarnos de que todos comprendemos y aplicamos estos principios de manera adecuada."</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Yeiner Daniel Anaya Duarte</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Semana2-->
+        <section class="resume-section" id="semana02">
+            <div class="resume-section-content">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h2 class="mb-5">Software</h2>
+                        <div class="subheading mb-3">Se recopiló información en biblioteca y fuentes digitales y se realizó un mapa sobre la evolución del software</div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Agosto 18 - Agosto 24</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Evolucion del Software</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/EvolucionDelSoftware.pdf" type="application/pdf"
+                                        width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/EvolucionDelSoftware.pdf" target="_blank">Ver
+                                        PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h4>"La evolución es el cambio en las características de las especies a lo largo del tiempo, un concepto central en la biología, como explicó Darwin en El origen de las especies (1859)."</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Ana Maria Moreno Casadiego</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Referencias Bibliográficas</h3><br>
+                        <div class="tavla">
+                            <div class="hori">
+                                <div class="ceda"><embed src="assets/pdf/Software/BIBLIOGRAFÍA11520-73-82-86.pdf" type="application/pdf"
+                                        width="400" height="250">
+                                    <br>
+                                    <a class="pdf-button" href="assets/pdf/Software/BIBLIOGRAFÍA11520-73-82-86.pdf" target="_blank">Ver
+                                        PDF</a>
+                                </div>
+                                <div class="ceda">
+                                    <h4>Recopilamos información de material bibliográfico que nos servirá durante el semestre como apoyo y extensión del material visto en clases</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Moises Omar Osorio Labrador</span></div>
+                </div>   
+            </div>
+        </section>
+
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Skills</h2>
@@ -725,6 +893,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        function toggleSubMenu(menuId) {
+            var submenu = document.getElementById(menuId);
+            
+            // Cerrar cualquier submenú que esté abierto
+            var submenus = document.querySelectorAll('.submenu-container');
+            submenus.forEach(function(menu) {
+                if (menu !== submenu) {
+                    menu.classList.add('d-none'); // Cierra los otros submenús
+                }
+            });
+        
+            // Alterna la visibilidad del submenú clicado
+            if (submenu.classList.contains('d-none')) {
+                submenu.classList.remove('d-none'); // Muestra el submenú si estaba cerrado
+            } else {
+                submenu.classList.add('d-none'); // Cierra el submenú si estaba abierto
+            }
+        }
+        </script>
+        
 </body>
 
 </html>

@@ -12963,3 +12963,22 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+
+/* Submenú con desplazamiento, pero con scroll invisible */
+.submenu-container {
+  max-height: 200px; /* Ajusta la altura según sea necesario */
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  padding-left: 15px; /* Opcional: ajuste de padding para alineación */
+}
+
+/* Estilos para ocultar la barra de scroll */
+.submenu-container::-webkit-scrollbar {
+  width: 0; /* Oculta la barra de scroll en navegadores basados en WebKit */
+}
+
+.submenu-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
