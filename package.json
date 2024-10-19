@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-group3",
+  "version": "1.0.0",
+  "description": "Portafolio de actividades en las materias Analisis y diseño e Ingenieria de software",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ydanaya/portfolio-group3.git"
+  },
+  "keywords": [
+    "portafolio",
+    "ingenieria",
+    "javascript",
+    "ufps"
+  ],
+  "author": "Yeiner Daniel Anaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydanaya/portfolio-group3/issues"
+  },
+  "homepage": "https://github.com/ydanaya/portfolio-group3#readme"
+}
